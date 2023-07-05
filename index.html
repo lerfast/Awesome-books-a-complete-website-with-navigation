@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <title>Awesome Books</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#" id="books-link">Books List</a></li>
+        <li><a href="#" id="add-book-link">Add Book Form</a></li>
+        <li><a href="#" id="contact-link">Contact Info</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="books-section">
+      <h2>Books List</h2>
+      <div id="books-list">
+        <!-- Book entries will be dynamically added here -->
+      </div>
+    </section>
+
+    <section id="add-book-section">
+      <h2>Add Book Form</h2>
+      <form id="add-book-form">
+        <div>
+          <label for="title">Title:</label>
+          <input type="text" id="title" name="title" required>
+        </div>
+        <div>
+          <label for="author">Author:</label>
+          <input type="text" id="author" name="author" required>
+        </div>
+        <div>
+          <label for="genre">Genre:</label>
+          <input type="text" id="genre" name="genre" required>
+        </div>
+        <div>
+          <label for="year">Year:</label>
+          <input type="number" id="year" name="year" required>
+        </div>
+        <button type="submit">Add Book</button>
+      </form>
+    </section>
+
+    <section id="contact-section">
+      <h2>Contact Info</h2>
+      <p>Do you have any questions or you just want to say "Hello"? <br> You can reach out to us!!</p>
+      <ul>
+        <li>Email: luisemiliorojas@hotmail.com</li>
+        <li>Phone: +57 (318) 775 76 20</li>
+        <li>Address: 123 Street, Neiva, Colombia</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Awesome Books. All rights reserved.</p>
+  </footer>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
