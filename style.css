@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 html,
 body,
 ul,
@@ -7,7 +7,7 @@ li {
   padding: 0;
 }
 
-/* Basic styles */
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.5;
