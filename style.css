@@ -77,6 +77,8 @@ footer {
   display: flex;
   align-items: center;
   padding: 0.5em;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
 .book {
@@ -100,21 +102,15 @@ footer {
 }
 
 .book button.remove-button {
-  background-color: #E53935;
-  color: #FFFFFF;
+  background-color: #e53935;
+  color: #fff;
   border: none;
   border-radius: 3px;
   padding: 5px 10px;
   font-size: 14px;
   cursor: pointer;
- }
- 
- .book button.remove-button:hover {
-  background-color: #C62828;
- }
+}
 
- .book-stack {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
- }
+.book button.remove-button:hover {
+  background-color: #c62828;
+}
