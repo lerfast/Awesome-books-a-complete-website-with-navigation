@@ -79,9 +79,9 @@ Copy path of the index.html and paste it on any browser
 
 👤 **Luis Emilio Rojas**
 
-- GitHub: [@lerfast](https://github.com/lerfast)
-- Twitter: [@](https://twitter.com/)
-- LinkedIn: [](https://www.linkedin.com/in/)
+- GitHub: [@githubhandle](https://github.com/lerfast)
+- Twitter: [@twitterhandle](https://twitter.com/lerfast)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/luis-emilio-rojas-rojas-6ba90a8a/)
 
 👤 Solomon G. Kidanu
 
