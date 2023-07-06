@@ -15,6 +15,9 @@ function showBooksSection() {
   contactSection.style.display = 'none';
 }
 
+const date = document.getElementById('date');
+date.innerHTML = `<small>${Date()}</small>`;
+
 function showAddBookSection() {
   booksSection.style.display = 'none';
   addBookSection.style.display = 'block';
