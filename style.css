@@ -71,24 +71,38 @@ footer {
   text-align: center;
 }
 
+.contact-section {
+  margin-left: 38%;
+}
+
 .book-stack {
   width: 100%;
   font-family: 'Lato', sans-serif;
   display: flex;
+  flex-direction: column;
   align-items: center;
   padding: 0.5em;
   flex-wrap: wrap;
   gap: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-stack:nth-child(even) {
+  background-color: rgb(225, 225, 225);
+  width: 60%;
+  margin-left: 20%;
 }
 
 .book {
   background-color: #fff;
-  border: 1px solid #e0e0e0;
-  border-radius: 5px;
+  display: flex;
   padding: 10px;
   margin-bottom: 10px;
-  width: 190px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  justify-content: space-between;
+  
 }
 
 .book h3 {
@@ -102,7 +116,7 @@ footer {
 }
 
 .book button.remove-button {
-  background-color: #e53935;
+  background-color: #0d0303;
   color: #fff;
   border: none;
   border-radius: 3px;
@@ -113,4 +127,12 @@ footer {
 
 .book button.remove-button:hover {
   background-color: #c62828;
+}
+
+.add-book-form{
+  display: flex;
+  flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    width: 100%;
 }
